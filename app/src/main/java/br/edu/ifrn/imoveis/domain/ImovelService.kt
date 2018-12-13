@@ -1,11 +1,11 @@
 package br.edu.ifrn.imoveis.domain
 
 import android.util.Base64
-import br.edu.ifrn.imovel.ImoveisApplication
-import br.edu.ifrn.imovel.domain.dao.DatabaseManager
-import br.edu.ifrn.imovel.extensions.fromJson
-import br.edu.ifrn.imovel.extensions.toJson
-import br.edu.ifrn.imovel.utils.HttpHelper
+import br.edu.ifrn.imoveis.ImoveisApplication
+import br.edu.ifrn.imoveis.domain.dao.DatabaseManager
+import br.edu.ifrn.imoveis.extensions.fromJson
+import br.edu.ifrn.imoveis.extensions.toJson
+import br.edu.ifrn.imoveis.utils.HttpHelper
 import java.io.File
 
 /**

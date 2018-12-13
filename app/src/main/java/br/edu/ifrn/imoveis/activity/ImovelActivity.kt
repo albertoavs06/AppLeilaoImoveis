@@ -23,7 +23,7 @@ import org.greenrobot.eventbus.EventBus
 import org.jetbrains.anko.*
 
 class ImovelActivity : BaseActivity() {
-    val imovel by lazy { intent.getParcelableExtra<imovel>("imovel") }
+    val imovel by lazy { intent.getParcelableExtra<Imovel>("imovel") }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -86,7 +86,7 @@ class ImovelActivity : BaseActivity() {
     }
 
     // Adiciona ou Remove o imovel dos Favoritos
-    fun onClickFavoritar(imovel: imovel) {
+    fun onClickFavoritar(imovel: Imovel) {
         doAsync {
             val favoritado = FavoritosService.favoritar(imovel)
             uiThread {

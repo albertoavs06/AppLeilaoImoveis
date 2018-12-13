@@ -24,7 +24,7 @@ class FavoritosFragment : ImoveisFragment() {
             // Busca os imoveis
             imoveis = FavoritosService.getImoveis()
             uiThread {
-                recyclerView.adapter = ImoveisAdapter(imoveis) { onClickImoveis(it) }
+                recyclerView.adapter = ImovelAdapter(imoveis) { onClickImovel(it) }
 
                 // Termina a animação do Swipe to Refresh
                 swipeToRefresh.isRefreshing = false

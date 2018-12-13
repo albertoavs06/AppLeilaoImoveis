@@ -5,7 +5,7 @@ import br.edu.ifrn.imoveis.ImoveisApplication
 
 object DatabaseManager {
     // Singleton do Room: banco de dados
-    private var dbInstance: ImoveisDatabase
+    private var dbInstance: ImovelDatabase
 
     init {
         val appContext = ImoveisApplication.getInstance().applicationContext
@@ -13,7 +13,7 @@ object DatabaseManager {
         // Configura o Room
         dbInstance = Room.databaseBuilder(
                 appContext,
-                ImoveisDatabase::class.java,
+                ImovelDatabase::class.java,
                 "imoveis.sqlite")
                 .build()
     }
