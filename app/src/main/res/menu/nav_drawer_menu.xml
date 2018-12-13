@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!-- Lista com todos os imoveis -->
+        <item
+            android:id="@+id/nav_item_imoveis_todos"
+            android:checked="true"
+            android:icon="@drawable/ic_drawer_imovel"
+            android:title="@string/imoveis" />
+        <!-- Lista com os imoveis clássicos -->
+        <item
+            android:id="@+id/nav_item_imoveis_classicos"
+            android:checked="true"
+            android:icon="@drawable/ic_drawer_imovel"
+            android:title="@string/classicos" />
+        <!-- Lista com os imoveis esportivos -->
+        <item
+            android:id="@+id/nav_item_imoveis_esportivos"
+            android:checked="true"
+            android:icon="@drawable/ic_drawer_imovel"
+            android:title="@string/esportivos" />
+        <!-- Lista com os imoveis de luxo -->
+        <item
+            android:id="@+id/nav_item_imoveis_luxo"
+            android:checked="true"
+            android:icon="@drawable/ic_drawer_imovel"
+            android:title="@string/luxo" />
+        <!-- WebView com informações sobre o ifrn -->
+        <item
+            android:id="@+id/nav_item_site_ifrn"
+            android:icon="@drawable/ic_drawer_site_ifrn"
+            android:title="@string/site_do_ifrn" />
+        <!-- Tela de configurações -->
+        <item
+            android:id="@+id/nav_item_settings"
+            android:icon="@drawable/ic_drawer_settings"
+            android:title="@string/configuracoes" />
+    </group>
+</menu>

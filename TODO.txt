@@ -1,0 +1,3 @@
+val dao = ImoveisApplication.getInstance().getDatabase().imovelDAO()
+
+findViewById

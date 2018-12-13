@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">ImoveisKt</string>
+    <!-- A -->
+    <string name="action_about">Sobre</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_editar">Editar</string>
+    <string name="action_salvar">Salvar</string>
+    <string name="action_deletar">Deletar</string>
+    <string name="about_dialog_text">
+<![CDATA[
+<b>Aplicativo dos Imoveis</b><br>
+Versao %s<br><br>
+<a href="http://www.portal.ifrn.edu.br">http://portal.ifrn.edu.br</a><br><br>
+	]]>
+	</string>
+    <string name="about_dialog_title">Ifrn Android</string>
+    <!-- C -->
+    <string name="imoveis">Imoveis</string>
+    <string name="configuracoes">Configuraçõeses</string>
+    <string name="classicos">Clássicos</string>
+    <string name="classico">Clássico</string>
+    <!-- D -->
+    <string name="descricao">Descrição</string>
+
+    <!-- E -->
+    <string name="esportivos">Esportivos</string>
+    <string name="esportivo">Esportivos</string>
+
+    <!-- F -->
+    <string name="favoritos">Favoritos</string>
+
+    <!-- L -->
+    <string name="latitudeLongitude">Latitude / Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="luxo">Luxo</string>
+
+    <!-- M -->
+    <string name="mapa">Mapa</string>
+    <string name="msg_sem_internet">Sem internet.</string>
+    <string name="msg_aguarde">Por favor aguarde…</string>
+    <string name="msg_imovel_favoritado">Imovel adicionado aos favoritado.</string>
+    <string name="msg_imovel_desfavoritado">Imovel removido do favoritados.</string>
+    <string name="msg_imovel_salvo">Imovel salvo com sucesso</string>
+    <string name="msg_imovel_deletado">Imovel excluído com sucesso</string>
+    <string name="msg_confirma_excluir_imovel">Confirma excluir este imovel?</string>
+    <string name="msg_imovel_excluido">Imovel excluído com sucesso</string>
+    <string name="msg_error_form_nome">Nome é obrigatório</string>
+    <string name="msg_error_form_desc">Descrição é obrigatório</string>
+
+    <!-- N -->
+    <string name="nao">Não</string>
+    <string name="nav_drawer_username">Dispositivos Moveis</string>
+    <string name="nav_drawer_email">ifrn@ifrn.edu.br</string>
+    <string name="nome">Nome</string>
+    <string name="novo_imovel">Novo Imovel</string>
+
+    <!-- O -->
+    <string name="ok">OK</string>
+
+    <!-- S -->
+    <string name="site_do_ifrn">Site do Ifrn</string>
+    <string name="sim">Sim</string>
+    <string name="sobre">Sobre</string>
+
+    <!-- U -->
+    <string name="url_video">Vídeo</string>
+
+    <!-- V -->
+    <string name="vazio" />
+    <string name="video">Vídeo</string>
+
+    <!-- T -->
+    <string name="tipo">Tipo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
